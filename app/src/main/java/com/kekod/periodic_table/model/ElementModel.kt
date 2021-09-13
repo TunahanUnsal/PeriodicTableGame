@@ -1,4 +1,4 @@
-package com.kekod.periodic_table;
+package com.kekod.periodic_table.model;
 
 //          Code with 🥂
 //  ┌──────────────────────────┐
@@ -6,8 +6,11 @@ package com.kekod.periodic_table;
 //  │ ──────────────────────── │
 //  │ tuna.maeglini@gmail.com  │            
 //  │ ──────────────────────── │
-//  │    13.09.2021  22:31     │
+//  │    13.09.2021  23:33     │
 //  └──────────────────────────┘
 
-class Deneme {
+data class ElementModel(val elementNumber : Int) {
+
+    lateinit var elementName : String
+
 }

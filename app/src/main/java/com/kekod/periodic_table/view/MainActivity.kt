@@ -1,8 +1,11 @@
-package com.kekod.periodic_table
+package com.kekod.periodic_table.view
 
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
+import androidx.databinding.DataBindingUtil
+import com.kekod.periodic_table.R
+import com.kekod.periodic_table.databinding.ActivityMainBinding
 
 //          Code with 🥂
 //  ┌──────────────────────────┐
@@ -15,11 +18,14 @@ import androidx.appcompat.app.AppCompatActivity
 
 
 class MainActivity : AppCompatActivity() {
+
+    lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
+        setContentView(binding.root)
 
-        Log.e("MainActivity", "Hello world!!")
 
     }
 }
