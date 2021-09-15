@@ -1,11 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="60dp"
+    android:layout_height="60dp">
 
-     <TextView
-         android:id="@+id/deneme"
-         android:layout_width="match_parent"
-         android:layout_height="match_parent"/>
+     <FrameLayout
+         android:id="@+id/colorFrame"
+         android:layout_gravity="center"
+         android:orientation="horizontal"
+         tool:background="@android:color/black"
+         android:layout_width="50dp"
+         android:layout_height="50dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+          <TextView
+              android:id="@+id/elementNumber"
+              tool:text="1"
+              android:layout_margin="5dp"
+              android:textSize="8sp"
+              android:textColor="@android:color/white"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              tool:ignore="SmallSp" />
+
+          <TextView
+              android:id="@+id/elementSymbol"
+              android:layout_gravity="center"
+              android:layout_marginBottom="3dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@android:color/white"
+              tool:text="He" />
+
+          <TextView
+              android:id="@+id/elementName"
+              android:layout_gravity="center"
+              android:layout_marginTop="15dp"
+              android:textSize="7sp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textColor="@android:color/white"
+              tool:text="Hydrogen"
+              tool:ignore="SmallSp" />
+
+     </FrameLayout>
+
+
+
+</FrameLayout>

@@ -9,8 +9,9 @@ package com.kekod.periodic_table.model;
 //  │    13.09.2021  23:33     │
 //  └──────────────────────────┘
 
-data class ElementModel(val elementNumber : Int) {
-
-    lateinit var elementName : String
-
-}
+data class ElementModel(
+    val elementNumber : Int,
+    val elementName: String,
+    val elementSymbol : String,
+    val elementType : Int,
+)

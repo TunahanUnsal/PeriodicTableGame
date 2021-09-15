@@ -1,10 +1,11 @@
-package com.kekod.periodic_table.viewModel;
+package com.kekod.periodic_table.viewModel.adapter;
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.kekod.periodic_table.R
 import com.kekod.periodic_table.model.ElementModel
+import com.kekod.periodic_table.viewModel.holder.ElementViewHolder
 
 //          Code with 🥂
 //  ┌──────────────────────────┐
@@ -15,7 +16,7 @@ import com.kekod.periodic_table.model.ElementModel
 //  │    13.09.2021  23:37     │
 //  └──────────────────────────┘
 
-class ElementAdapter(val itemList : List<ElementModel>): RecyclerView.Adapter<ElementViewHolder>() {
+class ElementAdapter(private val itemList : List<ElementModel>): RecyclerView.Adapter<ElementViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ElementViewHolder {
         val inflater = LayoutInflater.from(parent.context)
         val itemView = inflater.inflate(R.layout.card_view,parent,false)
