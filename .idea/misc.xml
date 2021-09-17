@@ -3,11 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/kekod_periodic_table/app/src/main/res/drawable/ic_health.xml" value="0.190625" />
         <entry key="..\:/kekod_periodic_table/app/src/main/res/drawable/ic_pop_up_background.xml" value="0.2814814814814815" />
-        <entry key="..\:/kekod_periodic_table/app/src/main/res/layout/activity_main.xml" value="0.12" />
+        <entry key="..\:/kekod_periodic_table/app/src/main/res/layout/activity_game_over.xml" value="0.17447916666666666" />
+        <entry key="..\:/kekod_periodic_table/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/kekod_periodic_table/app/src/main/res/layout/activity_splash.xml" value="0.17864583333333334" />
         <entry key="..\:/kekod_periodic_table/app/src/main/res/layout/card_view.xml" value="0.5" />
-        <entry key="..\:/kekod_periodic_table/app/src/main/res/layout/element_detail_pop_up.xml" value="0.22" />
+        <entry key="..\:/kekod_periodic_table/app/src/main/res/layout/element_detail_pop_up.xml" value="0.2" />
       </map>
     </option>
   </component>

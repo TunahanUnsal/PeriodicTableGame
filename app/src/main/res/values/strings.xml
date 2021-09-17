@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">kekod_periodic_table</string>
+    <string name="find">Find in the Table</string>
 </resources>

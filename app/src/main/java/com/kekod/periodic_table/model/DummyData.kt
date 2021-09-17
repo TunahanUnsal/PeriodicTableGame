@@ -19,54 +19,63 @@ object DummyData {
 
         //col 1
         val element1 = ElementModel(
+            knew = 0,
             elementNumber = 1,
             elementName = "Hydrogen",
             elementSymbol = "H",
             elementType = 1,
         )
         val element2 = ElementModel(
+            knew = 0,
             elementNumber = 3,
             elementName = "Lithium",
             elementSymbol = "Li",
             elementType = 1,
         )
         val element3 = ElementModel(
+            knew = 0,
             elementNumber = 11,
             elementName = "Sodium",
             elementSymbol = "Na",
             elementType = 1,
         )
         val element4 = ElementModel(
+            knew = 0,
             elementNumber = 19,
             elementName = "Potassium",
             elementSymbol = "K",
             elementType = 1,
         )
         val element5 = ElementModel(
+            knew = 0,
             elementNumber = 37,
             elementName = "Rubidium",
             elementSymbol = "Rb",
             elementType = 1,
         )
         val element6 = ElementModel(
+            knew = 0,
             elementNumber = 55,
             elementName = "Cesium",
             elementSymbol = "Cs",
             elementType = 1,
         )
         val element7 = ElementModel(
+            knew = 0,
             elementNumber = 87,
             elementName = "Francium",
             elementSymbol = "Fr",
             elementType = 1,
         )
         val element8 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element9 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
@@ -74,54 +83,63 @@ object DummyData {
         )
         //col 2
         val element10 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element11 = ElementModel(
+            knew = 0,
             elementNumber = 4,
             elementName = "Beryllium",
             elementSymbol = "Be",
             elementType = 1,
         )
         val element12 = ElementModel(
+            knew = 0,
             elementNumber = 12,
             elementName = "Magnesium",
             elementSymbol = "Mg",
             elementType = 1,
         )
         val element13 = ElementModel(
+            knew = 0,
             elementNumber = 20,
             elementName = "Aluminum",
             elementSymbol = "Ca",
             elementType = 1,
         )
         val element14 = ElementModel(
+            knew = 0,
             elementNumber = 38,
             elementName = "Strontium",
             elementSymbol = "Sr",
             elementType = 1,
         )
         val element15 = ElementModel(
+            knew = 0,
             elementNumber = 56,
             elementName = "Barium",
             elementSymbol = "Ba",
             elementType = 1,
         )
         val element16 = ElementModel(
+            knew = 0,
             elementNumber = 88,
             elementName = "Radium",
             elementSymbol = "Ra",
             elementType = 1,
         )
         val element17 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element18 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
@@ -129,54 +147,63 @@ object DummyData {
         )
         //col 3
         val element19 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element20 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element21 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element22 = ElementModel(
+            knew = 0,
             elementNumber = 21,
             elementName = "Scandium",
             elementSymbol = "Sc",
             elementType = 2,
         )
         val element23 = ElementModel(
+            knew = 0,
             elementNumber = 39,
             elementName = "Yttrium",
             elementSymbol = "Y",
             elementType = 2,
         )
         val element24 = ElementModel(
+            knew = 0,
             elementNumber = 71,
             elementName = "Lutetium",
             elementSymbol = "Lu",
             elementType = 2,
         )
         val element25 = ElementModel(
+            knew = 0,
             elementNumber = 103,
             elementName = "Lawrencium",
             elementSymbol = "Lr",
             elementType = 2,
         )
         val element26 = ElementModel(
+            knew = 0,
             elementNumber = 57,
             elementName = "Lanthanum",
             elementSymbol = "La",
             elementType = 4,
         )
         val element27 = ElementModel(
+            knew = 0,
             elementNumber = 89,
             elementName = "Actinium",
             elementSymbol = "Ac",
@@ -184,54 +211,63 @@ object DummyData {
         )
         //col4
         val element28 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element29 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element30 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element31 = ElementModel(
+            knew = 0,
             elementNumber = 22,
             elementName = "Titanium",
             elementSymbol = "Ti",
             elementType = 2,
         )
         val element32 = ElementModel(
+            knew = 0,
             elementNumber = 40,
             elementName = "Zirconium",
             elementSymbol = "Zr",
             elementType = 2,
         )
         val element33 = ElementModel(
+            knew = 0,
             elementNumber = 72,
             elementName = "Hafnium",
             elementSymbol = "Hf",
             elementType = 2,
         )
         val element34 = ElementModel(
+            knew = 0,
             elementNumber = 104,
             elementName = "Rutherfordium",
             elementSymbol = "Rf",
             elementType = 2,
         )
         val element35 = ElementModel(
+            knew = 0,
             elementNumber = 58,
             elementName = "Cerium",
             elementSymbol = "Ce",
             elementType = 4,
         )
         val element36 = ElementModel(
+            knew = 0,
             elementNumber = 90,
             elementName = "Thorium",
             elementSymbol = "Th",
@@ -239,54 +275,63 @@ object DummyData {
         )
         //col5
         val element37 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element38 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element39 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element40 = ElementModel(
+            knew = 0,
             elementNumber = 23,
             elementName = "Vanadium",
             elementSymbol = "V",
             elementType = 2,
         )
         val element41 = ElementModel(
+            knew = 0,
             elementNumber = 41,
             elementName = "Niobium",
             elementSymbol = "Nb",
             elementType = 2,
         )
         val element42 = ElementModel(
+            knew = 0,
             elementNumber = 73,
             elementName = "Tantalum",
             elementSymbol = "Ta",
             elementType = 2,
         )
         val element43 = ElementModel(
+            knew = 0,
             elementNumber = 105,
             elementName = "Dubnium",
             elementSymbol = "Db",
             elementType = 2,
         )
         val element44 = ElementModel(
+            knew = 0,
             elementNumber = 59,
             elementName = "Praseodymium",
             elementSymbol = "Pr",
             elementType = 4,
         )
         val element45 = ElementModel(
+            knew = 0,
             elementNumber = 91,
             elementName = "Protactinium",
             elementSymbol = "Pa",
@@ -294,54 +339,63 @@ object DummyData {
         )
         //col6
         val element46 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element47 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element48 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element49 = ElementModel(
+            knew = 0,
             elementNumber = 24,
             elementName = "Chromium",
             elementSymbol = "Cr",
             elementType = 2,
         )
         val element50 = ElementModel(
+            knew = 0,
             elementNumber = 42,
             elementName = "Molybdenum",
             elementSymbol = "Mo",
             elementType = 2,
         )
         val element51 = ElementModel(
+            knew = 0,
             elementNumber = 74,
             elementName = "Tungsten",
             elementSymbol = "W",
             elementType = 2,
         )
         val element52 = ElementModel(
+            knew = 0,
             elementNumber = 106,
             elementName = "Seaborgium",
             elementSymbol = "Sg",
             elementType = 2,
         )
         val element53 = ElementModel(
+            knew = 0,
             elementNumber = 60,
             elementName = "Neodymium",
             elementSymbol = "Nd",
             elementType = 4,
         )
         val element54 = ElementModel(
+            knew = 0,
             elementNumber = 92,
             elementName = "Uranium",
             elementSymbol = "U",
@@ -349,54 +403,63 @@ object DummyData {
         )
         //col7
         val element55 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element56 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element57 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element58 = ElementModel(
+            knew = 0,
             elementNumber = 25,
             elementName = "Manganese",
             elementSymbol = "Mn",
             elementType = 2,
         )
         val element59 = ElementModel(
+            knew = 0,
             elementNumber = 43,
             elementName = "Technetium",
             elementSymbol = "Tc",
             elementType = 2,
         )
         val element60 = ElementModel(
+            knew = 0,
             elementNumber = 75,
             elementName = "Rhenium",
             elementSymbol = "Re",
             elementType = 2,
         )
         val element61 = ElementModel(
+            knew = 0,
             elementNumber = 107,
             elementName = "Rutherfordium",
             elementSymbol = "Bh",
             elementType = 2,
         )
         val element62 = ElementModel(
+            knew = 0,
             elementNumber = 61,
             elementName = "Promethium",
             elementSymbol = "Pm",
             elementType = 4,
         )
         val element63 = ElementModel(
+            knew = 0,
             elementNumber = 93,
             elementName = "Neptunium",
             elementSymbol = "Np",
@@ -404,54 +467,63 @@ object DummyData {
         )
         //col8
         val element64 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element65 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element66 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element67 = ElementModel(
+            knew = 0,
             elementNumber = 26,
             elementName = "Iron",
             elementSymbol = "Fe",
             elementType = 2,
         )
         val element68 = ElementModel(
+            knew = 0,
             elementNumber = 44,
             elementName = "Ruthenium",
             elementSymbol = "Ru",
             elementType = 2,
         )
         val element69 = ElementModel(
+            knew = 0,
             elementNumber = 76,
             elementName = "Osmium",
             elementSymbol = "Os",
             elementType = 2,
         )
         val element70 = ElementModel(
+            knew = 0,
             elementNumber = 108,
             elementName = "Hassium",
             elementSymbol = "Hs",
             elementType = 2,
         )
         val element71 = ElementModel(
+            knew = 0,
             elementNumber = 62,
             elementName = "Samarium",
             elementSymbol = "Sm",
             elementType = 4,
         )
         val element72 = ElementModel(
+            knew = 0,
             elementNumber = 94,
             elementName = "Plutonium",
             elementSymbol = "Pu",
@@ -459,54 +531,63 @@ object DummyData {
         )
         //col9
         val element73 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element74 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element75 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element76 = ElementModel(
+            knew = 0,
             elementNumber = 27,
             elementName = "Cobalt",
             elementSymbol = "Co",
             elementType = 2,
         )
         val element77 = ElementModel(
+            knew = 0,
             elementNumber = 45,
             elementName = "Rhodium",
             elementSymbol = "Rh",
             elementType = 2,
         )
         val element78 = ElementModel(
+            knew = 0,
             elementNumber = 77,
             elementName = "Iridium",
             elementSymbol = "Ir",
             elementType = 2,
         )
         val element79 = ElementModel(
+            knew = 0,
             elementNumber = 109,
             elementName = "Meitnerium",
             elementSymbol = "Mr",
             elementType = 2,
         )
         val element80 = ElementModel(
+            knew = 0,
             elementNumber = 63,
             elementName = "Europium",
             elementSymbol = "Eu",
             elementType = 4,
         )
         val element81 = ElementModel(
+            knew = 0,
             elementNumber = 95,
             elementName = "Americium",
             elementSymbol = "Am",
@@ -514,54 +595,63 @@ object DummyData {
         )
         //col10
         val element82 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element83 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element84 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element85 = ElementModel(
+            knew = 0,
             elementNumber = 28,
             elementName = "Nickel",
             elementSymbol = "Ni",
             elementType = 2,
         )
         val element86 = ElementModel(
+            knew = 0,
             elementNumber = 46,
             elementName = "Palladium",
             elementSymbol = "Pd",
             elementType = 2,
         )
         val element87 = ElementModel(
+            knew = 0,
             elementNumber = 78,
             elementName = "Platinum",
             elementSymbol = "Pt",
             elementType = 2,
         )
         val element88 = ElementModel(
+            knew = 0,
             elementNumber = 110,
             elementName = "Darmstadtium",
             elementSymbol = "Ds",
             elementType = 2,
         )
         val element89 = ElementModel(
+            knew = 0,
             elementNumber = 64,
             elementName = "Gadolinium",
             elementSymbol = "Gd",
             elementType = 4,
         )
         val element90 = ElementModel(
+            knew = 0,
             elementNumber = 96,
             elementName = "Curium",
             elementSymbol = "Cm",
@@ -569,54 +659,63 @@ object DummyData {
         )
         //col11
         val element91 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element92 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element93 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element94 = ElementModel(
+            knew = 0,
             elementNumber = 29,
             elementName = "Copper",
             elementSymbol = "Cu",
             elementType = 2,
         )
         val element95 = ElementModel(
+            knew = 0,
             elementNumber = 47,
             elementName = "Silver",
             elementSymbol = "Ag",
             elementType = 2,
         )
         val element96 = ElementModel(
+            knew = 0,
             elementNumber = 79,
             elementName = "Gold",
             elementSymbol = "Au",
             elementType = 2,
         )
         val element97 = ElementModel(
+            knew = 0,
             elementNumber = 111,
             elementName = "Roentgenium",
             elementSymbol = "Rg",
             elementType = 2,
         )
         val element98 = ElementModel(
+            knew = 0,
             elementNumber = 65,
             elementName = "Terbium",
             elementSymbol = "Tb",
             elementType = 4,
         )
         val element99 = ElementModel(
+            knew = 0,
             elementNumber = 97,
             elementName = "Berkelium",
             elementSymbol = "Bk",
@@ -624,54 +723,63 @@ object DummyData {
         )
         //col12
         val element100 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element101 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element102 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element103 = ElementModel(
+            knew = 0,
             elementNumber = 30,
             elementName = "Zinc",
             elementSymbol = "Zn",
             elementType = 2,
         )
         val element104 = ElementModel(
+            knew = 0,
             elementNumber = 48,
             elementName = "Cadmium",
             elementSymbol = "Cd",
             elementType = 2,
         )
         val element105 = ElementModel(
+            knew = 0,
             elementNumber = 80,
             elementName = "Mercury",
             elementSymbol = "Hg",
             elementType = 2,
         )
         val element106 = ElementModel(
+            knew = 0,
             elementNumber = 112,
             elementName = "Copernicium",
             elementSymbol = "Cn",
             elementType = 2,
         )
         val element107 = ElementModel(
+            knew = 0,
             elementNumber = 66,
             elementName = "Dysprosium",
             elementSymbol = "Dy",
             elementType = 4,
         )
         val element108 = ElementModel(
+            knew = 0,
             elementNumber = 98,
             elementName = "Californium",
             elementSymbol = "Cf",
@@ -679,54 +787,63 @@ object DummyData {
         )
         //col13
         val element109 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element110 = ElementModel(
+            knew = 0,
             elementNumber = 5,
             elementName = "Boron",
             elementSymbol = "B",
             elementType = 3,
         )
         val element111 = ElementModel(
+            knew = 0,
             elementNumber = 13,
             elementName = "Aluminum",
             elementSymbol = "Al",
             elementType = 3,
         )
         val element112 = ElementModel(
+            knew = 0,
             elementNumber = 31,
             elementName = "Gallium",
             elementSymbol = "Ga",
             elementType = 3,
         )
         val element113 = ElementModel(
+            knew = 0,
             elementNumber = 49,
             elementName = "Indium",
             elementSymbol = "In",
             elementType = 3,
         )
         val element114 = ElementModel(
+            knew = 0,
             elementNumber = 81,
             elementName = "Thallium",
             elementSymbol = "Tl",
             elementType = 3,
         )
         val element115 = ElementModel(
+            knew = 0,
             elementNumber = 113,
             elementName = "Nihonium",
             elementSymbol = "Nh",
             elementType = 3,
         )
         val element116 = ElementModel(
+            knew = 0,
             elementNumber = 67,
             elementName = "Holmium",
             elementSymbol = "Ho",
             elementType = 4,
         )
         val element117 = ElementModel(
+            knew = 0,
             elementNumber = 99,
             elementName = "Einsteinium",
             elementSymbol = "Es",
@@ -734,54 +851,63 @@ object DummyData {
         )
         //col14
         val element118 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element119 = ElementModel(
+            knew = 0,
             elementNumber = 6,
             elementName = "Carbon",
             elementSymbol = "C",
             elementType = 3,
         )
         val element120 = ElementModel(
+            knew = 0,
             elementNumber = 14,
             elementName = "Silicon",
             elementSymbol = "Si",
             elementType = 3,
         )
         val element121 = ElementModel(
+            knew = 0,
             elementNumber = 32,
             elementName = "Germanium",
             elementSymbol = "Ge",
             elementType = 3,
         )
         val element122 = ElementModel(
+            knew = 0,
             elementNumber = 50,
             elementName = "Tin",
             elementSymbol = "Sn",
             elementType = 3,
         )
         val element123 = ElementModel(
+            knew = 0,
             elementNumber = 82,
             elementName = "Lead",
             elementSymbol = "Pb",
             elementType = 3,
         )
         val element124 = ElementModel(
+            knew = 0,
             elementNumber = 114,
             elementName = "Flerovium",
             elementSymbol = "Fl",
             elementType = 3,
         )
         val element125 = ElementModel(
+            knew = 0,
             elementNumber = 68,
             elementName = "Erbium",
             elementSymbol = "Er",
             elementType = 4,
         )
         val element126 = ElementModel(
+            knew = 0,
             elementNumber = 100,
             elementName = "Fermium",
             elementSymbol = "Fm",
@@ -789,54 +915,63 @@ object DummyData {
         )
         //col15
         val element127 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element128 = ElementModel(
+            knew = 0,
             elementNumber = 7,
             elementName = "Nitrogen",
             elementSymbol = "N",
             elementType = 3,
         )
         val element129 = ElementModel(
+            knew = 0,
             elementNumber = 15,
             elementName = "Phosphorus",
             elementSymbol = "P",
             elementType = 3,
         )
         val element130 = ElementModel(
+            knew = 0,
             elementNumber = 33,
             elementName = "Arsenic",
             elementSymbol = "As",
             elementType = 3,
         )
         val element131 = ElementModel(
+            knew = 0,
             elementNumber = 51,
             elementName = "Antimony",
             elementSymbol = "Sb",
             elementType = 3,
         )
         val element132 = ElementModel(
+            knew = 0,
             elementNumber = 83,
             elementName = "Bismuth",
             elementSymbol = "Bi",
             elementType = 3,
         )
         val element133 = ElementModel(
+            knew = 0,
             elementNumber = 115,
             elementName = "Moscovium",
             elementSymbol = "Mc",
             elementType = 3,
         )
         val element134 = ElementModel(
+            knew = 0,
             elementNumber = 69,
             elementName = "Thulium",
             elementSymbol = "Tm",
             elementType = 4,
         )
         val element135 = ElementModel(
+            knew = 0,
             elementNumber = 101,
             elementName = "Mendelevium",
             elementSymbol = "Md",
@@ -844,54 +979,63 @@ object DummyData {
         )
         //col16
         val element136 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element137 = ElementModel(
+            knew = 0,
             elementNumber = 8,
             elementName = "",
             elementSymbol = "O",
             elementType = 3,
         )
         val element138 = ElementModel(
+            knew = 0,
             elementNumber = 16,
             elementName = "",
             elementSymbol = "S",
             elementType = 3,
         )
         val element139 = ElementModel(
+            knew = 0,
             elementNumber = 34,
             elementName = "Selenium",
             elementSymbol = "Se",
             elementType = 3,
         )
         val element140 = ElementModel(
+            knew = 0,
             elementNumber = 52,
             elementName = "Tellurium",
             elementSymbol = "Te",
             elementType = 3,
         )
         val element141 = ElementModel(
+            knew = 0,
             elementNumber = 84,
             elementName = "Polonium",
             elementSymbol = "Po",
             elementType = 3,
         )
         val element142 = ElementModel(
+            knew = 0,
             elementNumber = 116,
             elementName = "Livermorium",
             elementSymbol = "Lv",
             elementType = 3,
         )
         val element143 = ElementModel(
+            knew = 0,
             elementNumber = 70,
             elementName = "Ytterbium",
             elementSymbol = "Yb",
             elementType = 4,
         )
         val element144 = ElementModel(
+            knew = 0,
             elementNumber = 102,
             elementName = "Nobelium",
             elementSymbol = "No",
@@ -899,54 +1043,63 @@ object DummyData {
         )
         //col17
         val element145 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element146 = ElementModel(
+            knew = 0,
             elementNumber = 9,
             elementName = "Fluorine",
             elementSymbol = "F",
             elementType = 3,
         )
         val element147 = ElementModel(
+            knew = 0,
             elementNumber = 17,
             elementName = "Chlorine",
             elementSymbol = "Cl",
             elementType = 3,
         )
         val element148 = ElementModel(
+            knew = 0,
             elementNumber = 35,
             elementName = "Bromine",
             elementSymbol = "Br",
             elementType = 3,
         )
         val element149 = ElementModel(
+            knew = 0,
             elementNumber = 53,
             elementName = "Iodine",
             elementSymbol = "I",
             elementType = 3,
         )
         val element150 = ElementModel(
+            knew = 0,
             elementNumber = 85,
             elementName = "Astatine",
             elementSymbol = "At",
             elementType = 3,
         )
         val element151 = ElementModel(
+            knew = 0,
             elementNumber = 117,
             elementName = "Tennessine",
             elementSymbol = "Ts",
             elementType = 3,
         )
         val element152 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element153 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
@@ -954,54 +1107,63 @@ object DummyData {
         )
         //col18
         val element154 = ElementModel(
+            knew = 0,
             elementNumber = 2,
             elementName = "Helium",
             elementSymbol = "He",
             elementType = 1,
         )
         val element155 = ElementModel(
+            knew = 0,
             elementNumber = 10,
             elementName = "Neon",
             elementSymbol = "Ne",
             elementType = 3,
         )
         val element156 = ElementModel(
+            knew = 0,
             elementNumber = 18,
             elementName = "Argon",
             elementSymbol = "Ar",
             elementType = 3,
         )
         val element157 = ElementModel(
+            knew = 0,
             elementNumber = 36,
             elementName = "Krypton",
             elementSymbol = "Kr",
             elementType = 3,
         )
         val element158 = ElementModel(
+            knew = 0,
             elementNumber = 54,
             elementName = "Xenon",
             elementSymbol = "Xe",
             elementType = 3,
         )
         val element159 = ElementModel(
+            knew = 0,
             elementNumber = 86,
             elementName = "Radon",
             elementSymbol = "Rn",
             elementType = 3,
         )
         val element160 = ElementModel(
+            knew = 0,
             elementNumber = 118,
             elementName = "Oganesson",
             elementSymbol = "Og",
             elementType = 3,
         )
         val element161 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",
             elementType = -1,
         )
         val element162 = ElementModel(
+            knew = 0,
             elementNumber = 0,
             elementName = "",
             elementSymbol = "",

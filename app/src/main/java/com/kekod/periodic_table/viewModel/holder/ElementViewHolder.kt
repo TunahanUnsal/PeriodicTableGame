@@ -7,10 +7,7 @@ import android.os.Build
 import android.transition.Slide
 import android.transition.TransitionManager
 import android.util.Log
-import android.view.Gravity
-import android.view.LayoutInflater
-import android.view.MotionEvent
-import android.view.View
+import android.view.*
 import android.widget.*
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
@@ -18,6 +15,14 @@ import androidx.core.content.ContextCompat.getSystemService
 import androidx.recyclerview.widget.RecyclerView
 import com.kekod.periodic_table.R
 import com.kekod.periodic_table.model.ElementModel
+import com.kekod.periodic_table.view.activity.MainActivity
+import com.kekod.periodic_table.view.util.UiUtil
+import com.kekod.periodic_table.viewModel.Controller
+import org.w3c.dom.Text
+import android.content.DialogInterface
+
+
+
 
 //          Code with 🥂
 //  ┌──────────────────────────┐
@@ -30,16 +35,18 @@ import com.kekod.periodic_table.model.ElementModel
 
 class ElementViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
 
+
     @RequiresApi(Build.VERSION_CODES.M)
     fun bind(elementModel: ElementModel) {
         val elementSymbolText = itemView.findViewById<TextView>(R.id.elementSymbol)
-        elementSymbolText.text = elementModel.elementSymbol
-
-        if(elementModel.elementNumber != 0){
-            val elementNumberText = itemView.findViewById<TextView>(R.id.elementNumber)
+        val elementNumberText = itemView.findViewById<TextView>(R.id.elementNumber)
+        val elementNameText = itemView.findViewById<TextView>(R.id.elementName)
+        if (elementModel.elementNumber != 0){
             elementNumberText.text = elementModel.elementNumber.toString()
-            val elementNameText = itemView.findViewById<TextView>(R.id.elementName)
+        }
+        if(elementModel.elementNumber != 0 && elementModel.knew==1){
             elementNameText.text = elementModel.elementName
+            elementSymbolText.text = elementModel.elementSymbol
         }
         val elementColorImage = itemView.findViewById<FrameLayout>(R.id.colorFrame)
 
@@ -52,7 +59,19 @@ class ElementViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         }
         itemView.setOnClickListener {
             Log.d("TAG", "click: ${elementModel.elementName}")
-            showPopup(itemView,elementModel)
+            if (elementModel == Controller.selectedElement){  //true
+                showPopup(itemView,elementModel)
+                UiUtil.applyDim(itemView.rootView as ViewGroup,1f)
+                elementModel.knew = 1
+                elementNameText.text = elementModel.elementName
+                elementSymbolText.text = elementModel.elementSymbol
+                MainActivity.nextQuestion()
+            }
+            else{
+                Controller.count = Controller.count + 1
+                Log.d("TAG", "count: " + Controller.count)
+                MainActivity.falseAnswer(Controller.count,itemView.context)
+            }
         }
     }
     private fun showPopup(view: View, elementModel: ElementModel) {
@@ -67,6 +86,10 @@ class ElementViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         elementNameText.text = elementModel.elementName
         elementNumberText.text = elementModel.elementNumber.toString()
         elementSymbolText.text = elementModel.elementSymbol
+
+        pw.setOnDismissListener {
+            UiUtil.clearDim(itemView.rootView as ViewGroup)
+        }
 
     }
 }

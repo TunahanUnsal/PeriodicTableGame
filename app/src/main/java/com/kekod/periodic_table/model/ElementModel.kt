@@ -14,4 +14,5 @@ data class ElementModel(
     val elementName: String,
     val elementSymbol : String,
     val elementType : Int,    //  (-1) invisible   (1) red   (2) blue   (3) yellow    (4) green
+    var knew : Int
 )
