@@ -1,7 +1,7 @@
-package com.kekod.periodic_table.viewModel;
+package com.kekod.periodic_table.viewModel
 
 import android.util.Log
-import com.kekod.periodic_table.model.DummyData
+import com.kekod.periodic_table.DummyData
 import com.kekod.periodic_table.model.ElementModel
 
 //          Code with 🥂
@@ -22,9 +22,7 @@ class Controller {
         var count : Int = 0
 
         fun getElements(){
-
             elementList = DummyData.generateElement()
-
         }
 
         fun createAsk() : String {
@@ -45,9 +43,8 @@ class Controller {
             return symbol
         }
         fun reset(){
-            elementList = listOf<ElementModel>()
+            elementList = listOf()
             count = 0
         }
     }
-
 }

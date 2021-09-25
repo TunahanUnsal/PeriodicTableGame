@@ -1,32 +1,40 @@
 package com.kekod.periodic_table.view.activity
 
-import android.annotation.SuppressLint
+import android.app.Activity
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.kekod.periodic_table.R
 import com.kekod.periodic_table.view.util.UiUtil
+import com.kekod.periodic_table.view.util.UiUtil.Companion.getDuration
+import android.os.Build
+import androidx.annotation.RequiresApi
+import com.kekod.periodic_table.R
 
-@SuppressLint("CustomSplashScreen")
-class SplashActivity : AppCompatActivity() {
+
+class SplashActivity : Activity() {
+
+    @RequiresApi(Build.VERSION_CODES.P)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
-        UiUtil.hideNavigationBar(window)
+        UiUtil.hideSystemUI(window,findViewById(R.id.container))
 
+        val duration = getDuration(applicationContext,R.drawable.chemical_animation)
         val background = object : Thread() {
             override fun run() {
                 try {
-                    sleep(12000)
+                    sleep(duration.toLong())
                     val intent = Intent(baseContext, MainActivity::class.java)
                     startActivity(intent)
-                    overridePendingTransition(R.anim.fade_in, R.anim.fade_out);
+                    overridePendingTransition(R.anim.fade_in, R.anim.fade_out)
                 }catch (e : Exception){
                     e.printStackTrace()
                 }
             }
         }
         background.start()
+    }
 
+    override fun onBackPressed() {
+        finishAffinity()
     }
 }

@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tool="http://schemas.android.com/tools"
-    android:layout_width="60dp"
-    android:layout_height="60dp">
-
-     <FrameLayout
-         android:id="@+id/colorFrame"
-         android:layout_gravity="center"
-         android:orientation="horizontal"
-         tool:background="@android:color/black"
-         android:layout_width="50dp"
-         android:layout_height="50dp">
+    android:id="@+id/colorFrame"
+    android:layout_margin="3dp"
+    tool:background="@android:color/black"
+    android:layout_gravity="center"
+    android:layout_width="50dp"
+    android:layout_height="50dp">
 
           <TextView
               android:id="@+id/elementNumber"
@@ -26,7 +22,7 @@
           <TextView
               android:id="@+id/elementSymbol"
               android:layout_gravity="center"
-              android:textSize="16sp"
+              android:textSize="14sp"
               android:layout_marginBottom="3dp"
               android:fontFamily="@font/bold"
               android:layout_width="wrap_content"
@@ -39,14 +35,11 @@
               android:layout_gravity="center"
               android:layout_marginTop="15dp"
               android:textSize="9sp"
+              android:maxLength="8"
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
               android:textColor="@android:color/white"
               tool:text="Hydrogen"
               tool:ignore="SmallSp" />
-
-     </FrameLayout>
-
-
 
 </FrameLayout>

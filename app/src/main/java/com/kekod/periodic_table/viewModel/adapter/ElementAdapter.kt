@@ -1,7 +1,9 @@
-package com.kekod.periodic_table.viewModel.adapter;
+package com.kekod.periodic_table.viewModel.adapter
 
+import android.os.Build
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.annotation.RequiresApi
 import androidx.recyclerview.widget.RecyclerView
 import com.kekod.periodic_table.R
 import com.kekod.periodic_table.model.ElementModel
@@ -24,6 +26,7 @@ class ElementAdapter(private val itemList : List<ElementModel>): RecyclerView.Ad
         return ElementViewHolder(itemView)
     }
 
+    @RequiresApi(Build.VERSION_CODES.M)
     override fun onBindViewHolder(holder: ElementViewHolder, position: Int) {
             val elementModel = itemList[position]
             holder.bind(elementModel)

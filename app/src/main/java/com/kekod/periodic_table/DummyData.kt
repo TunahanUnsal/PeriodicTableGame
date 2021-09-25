@@ -1,4 +1,6 @@
-package com.kekod.periodic_table.model;
+package com.kekod.periodic_table
+
+import com.kekod.periodic_table.model.ElementModel
 
 //          Code with 🥂
 //  ┌──────────────────────────┐
@@ -11,11 +13,9 @@ package com.kekod.periodic_table.model;
 
 object DummyData {
 
-    fun generateElement() : List<ElementModel>{
+    fun generateElement() : List<ElementModel>{   //(-1) invisible   (1) red   (2) blue   (3) yellow    (4) green
 
         val elementList : MutableList<ElementModel> = mutableListOf()
-
-        //(-1) invisible   (1) red   (2) blue   (3) yellow    (4) green
 
         //col 1
         val element1 = ElementModel(
@@ -1170,7 +1170,6 @@ object DummyData {
             elementType = -1,
         )
 
-
         elementList.add(element1)
         elementList.add(element2)
         elementList.add(element3)
@@ -1334,8 +1333,6 @@ object DummyData {
         elementList.add(element161)
         elementList.add(element162)
 
-
         return elementList
     }
-
 }

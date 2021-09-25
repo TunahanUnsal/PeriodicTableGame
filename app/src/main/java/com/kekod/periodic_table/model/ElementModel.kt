@@ -1,4 +1,4 @@
-package com.kekod.periodic_table.model;
+package com.kekod.periodic_table.model
 
 //          Code with 🥂
 //  ┌──────────────────────────┐
@@ -9,10 +9,10 @@ package com.kekod.periodic_table.model;
 //  │    13.09.2021  23:33     │
 //  └──────────────────────────┘
 
-data class ElementModel(
+data class ElementModel(        //  (-1) invisible   (1) red   (2) blue   (3) yellow    (4) green
     val elementNumber : Int,
     val elementName: String,
     val elementSymbol : String,
-    val elementType : Int,    //  (-1) invisible   (1) red   (2) blue   (3) yellow    (4) green
+    val elementType : Int,
     var knew : Int
 )

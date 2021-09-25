@@ -15,6 +15,11 @@
         android:background="#101010"
         android:layout_height="match_parent">
 
+        <nl.dionsegijn.konfetti.KonfettiView
+            android:id="@+id/viewConfetti"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -29,20 +34,23 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginEnd="5dp"
-                android:src="@drawable/ic_health" />
+                android:src="@drawable/ic_health"
+                android:contentDescription="@string/heart"/>
 
             <ImageView
                 android:id="@+id/health2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/ic_health" />
+                android:src="@drawable/ic_health"
+                android:contentDescription="@string/heart"/>
 
             <ImageView
                 android:id="@+id/health3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5dp"
-                android:src="@drawable/ic_health" />
+                android:src="@drawable/ic_health"
+                android:contentDescription="@string/heart"/>
         </LinearLayout>
 
 

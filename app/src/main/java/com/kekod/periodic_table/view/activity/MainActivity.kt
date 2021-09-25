@@ -1,21 +1,21 @@
 package com.kekod.periodic_table.view.activity
 
-import android.app.Activity
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.content.ContextCompat.startActivity
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.GridLayoutManager
-import com.kekod.periodic_table.R
 import com.kekod.periodic_table.databinding.ActivityMainBinding
-import com.kekod.periodic_table.model.DummyData
+import com.kekod.periodic_table.DummyData
+import com.kekod.periodic_table.R
 import com.kekod.periodic_table.view.util.UiUtil
+import com.kekod.periodic_table.view.util.UiUtil.Companion.playSound
 import com.kekod.periodic_table.viewModel.Controller
 import com.kekod.periodic_table.viewModel.adapter.ElementAdapter
+
 
 //          Code with 🥂
 //  ┌──────────────────────────┐
@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
         setContentView(binding.root)
-        UiUtil.hideNavigationBar(window)
+        UiUtil.hideSystemUI(window, binding.root)
         Controller.getElements()
         val adapter = ElementAdapter(DummyData.generateElement())
         binding.table.adapter = adapter
@@ -42,31 +42,36 @@ class MainActivity : AppCompatActivity() {
         nextQuestion()
     }
 
-    override fun onResume() {
-        super.onResume()
+    override fun onBackPressed() {
+        finishAffinity()
     }
 
     companion object {
 
+        private const val TAG = "MainActivity"
         private lateinit var binding: ActivityMainBinding
+
         fun nextQuestion() {
-            Log.d("TAG", "nextQuestion: " + Controller.createAsk())
+            Log.d(TAG, "nextQuestion: " + Controller.createAsk())
             binding.element = Controller.createAsk()
+        }
+        fun nextQuestion(confetti : String) {
+            Log.d(TAG, "nextQuestion: $confetti")
+            binding.element = Controller.createAsk()
+            UiUtil.confetti(binding.viewConfetti)
         }
 
         fun falseAnswer(time: Int, mContext: Context) {
 
             when (time) {
-                1 -> binding.health1.visibility = View.GONE
-                2 -> binding.health2.visibility = View.GONE
+                1 -> {binding.health1.visibility = View.GONE;playSound()}
+                2 -> {binding.health2.visibility = View.GONE;playSound()}
                 3 -> {
                     Controller.reset()
                     val intent = Intent(mContext, GameOverActivity::class.java)
                     mContext.startActivity(intent)
                 }
             }
-
         }
-
     }
 }

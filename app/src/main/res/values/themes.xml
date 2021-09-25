@@ -1,4 +1,4 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
 
     <style name="AppFullScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>
@@ -16,4 +16,5 @@
     <style name="action_bar_theme" parent="@android:style/Widget.Holo.ActionBar">
         <item name="android:background">@null</item>
     </style>
+
 </resources>
