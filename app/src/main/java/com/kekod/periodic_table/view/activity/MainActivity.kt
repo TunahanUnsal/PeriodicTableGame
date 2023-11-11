@@ -5,6 +5,8 @@ import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.view.View
+import android.view.animation.Animation
+import android.view.animation.AnimationUtils
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.GridLayoutManager
@@ -61,7 +63,10 @@ class MainActivity : AppCompatActivity() {
             UiUtil.confetti(binding.viewConfetti)
         }
 
-        fun falseAnswer(time: Int, mContext: Context) {
+        fun falseAnswer(time: Int, mContext: Context,view: View) {
+
+            var animShake : Animation = AnimationUtils.loadAnimation(mContext, R.anim.shake);
+            view.startAnimation(animShake);
 
             when (time) {
                 1 -> {binding.health1.visibility = View.GONE;playSound()}

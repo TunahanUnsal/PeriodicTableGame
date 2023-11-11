@@ -58,7 +58,7 @@ class ElementViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
             else{
                 Controller.count = Controller.count + 1
                 Log.d("TAG", "count: " + Controller.count)
-                MainActivity.falseAnswer(Controller.count,itemView.context)
+                MainActivity.falseAnswer(Controller.count,itemView.context,itemView)
             }
         }
     }
